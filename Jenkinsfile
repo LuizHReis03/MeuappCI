@@ -1,8 +1,5 @@
 pipeline {
     agent any
-     tools { 
-        nodejs "node 20.11.1" 
-    }
     
     stages {
         stage('Checkout') {
