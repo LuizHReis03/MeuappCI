@@ -12,7 +12,7 @@ pipeline {
             steps {
                 bat "node -v"
                 bat 'npm install'
-                bat 'npm run build'
+                
             }
         }
         
